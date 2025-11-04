@@ -23,6 +23,9 @@ public class TaskThreeTests {
     @Autowired
     private FileLoader fileLoader;
 
+    @Autowired
+    private BalanceQuerier balanceQuerier;
+
     @Test
     void task_three_verifier() throws InterruptedException {
         userPopulator.populate();
